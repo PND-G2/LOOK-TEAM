@@ -1,6 +1,9 @@
 .carousel {
   margin-right: 50px;
 }
+.fondo{
+  background-image: url("images/bg-p1.jpg");
+}
 /*columnas de index*/
 .form{
   display:grid;
@@ -18,6 +21,6 @@
   padding-right: 15rem;
 
   /*carrusel*/
-  
+
 
 }
