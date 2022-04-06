@@ -26,7 +26,7 @@
   min-height: 500px;
 
 }
-
+/*carrusel galeria*/
 .carousel .carousel-item{
   display:flex;
   flex-direction: column;
