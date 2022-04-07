@@ -28,7 +28,7 @@
   padding-left: 15rem;
   padding-right: 15rem;
 }
-
+/*slider inicio*/
 .carousel-item2{
   height: 100vh;
   min-height: 300px;
@@ -36,9 +36,7 @@
   -webkit-background-size: cover;
   background-size: cover;
 }
-.carousel-caption{
-  bottom: 270px;
-}
+
 
 /*contenedor para carrusel*/
 .contenedor {
