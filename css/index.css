@@ -1,13 +1,21 @@
 
-
+*{
+  box-sizing: border-box;
+}
 .fondo{
   background-image: url("/images/bg-p1.jpg");
   background-repeat: no-repeat;
-
+  width: 100%;
+  height: 100%;
 }
 .fondo2{
   background-image: url("/images/bg-Latesthp2.png");
+  float:left;
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*columnas de index*/
@@ -20,6 +28,18 @@
   padding-left: 15rem;
   padding-right: 15rem;
 }
+
+.carousel-item2{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption{
+  bottom: 270px;
+}
+
 /*contenedor para carrusel*/
 .contenedor {
   padding-top: 15rem;
@@ -52,11 +72,11 @@
   border-radius: 0;
   transform: rotate(45deg);
   margin: 0 15px;
-  background: #1a1e21;
+
 
 }
 .galeria{
-  padding-top:7rem ;
+  padding-top:45rem ;
 }
 
 
