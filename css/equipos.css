@@ -1,15 +1,12 @@
 .equipos-header {
   background-color: #dc3545;
-<<<<<<< Updated upstream
-  margin-top: 120px;
-  
-=======
->>>>>>> Stashed changes
+  margin-top: 80px;
 }
 
 .equipos-header > h4,
 h5,
 h7 {
+  text-align: left;
   margin-left: 60px;
 }
 
